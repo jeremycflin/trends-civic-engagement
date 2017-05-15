@@ -1,5 +1,5 @@
 
-$.getJSON("http://freegeoip.net/json/", function(data) {
+$.getJSON("https://freegeoip.net/json/", function(data) {
     var country_code = data.country_code;
     var region = data.region_code
     var city = data.city
