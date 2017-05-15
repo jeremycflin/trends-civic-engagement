@@ -4,7 +4,7 @@ $(document).ready(function() {
     var chambers = ["house", "senate"]
     createContainers.init(chambers);
 
-    $.getJSON("../assets/data/us2016.topo1.json", function(us) {
+    $.getJSON("../assets/data/us.json", function(us) {
         createMaps.init(us);
 
     });
